@@ -1,0 +1,12 @@
+{
+  "name": "bug-demo",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "watch": "watchify index.js -t [ babelify --modules common ] -o bundle.js"
+  },
+  "devDependencies": {
+    "babelify": "^6.0.1",
+    "watchify": "^3.1.0"
+  }
+}
